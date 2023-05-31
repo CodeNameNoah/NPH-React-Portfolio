@@ -13,37 +13,49 @@
 
 ## Introduction
 
-I embarked on the exciting journey of creating a remarkable project as part of this course, and I can proudly say that this endeavor truly showcases my growth and understanding of the concepts I've learned thus far.
+I'm excited to share with you my experience of building a single-page application portfolio for a web developer using React. I started by carefully considering the given requirements and designing a user-friendly and visually appealing portfolio.
 
-The task at hand was to develop a browser-based text editor that would leave a lasting impression on potential employers. Not only did it have to be a single-page application meeting the Progressive Web App (PWA) criteria, but it also needed to incorporate various data persistence techniques to ensure redundancy and offline functionality.
+Upon loading the portfolio, users are greeted with a clean and organized layout consisting of a header, a content section, and a footer. The header immediately catches their attention, displaying the developer's name prominently. To assist with navigation, I created a menu with titles that correspond to different sections of the portfolio.
 
-To tackle this challenge, I decided to start with an existing application as the foundation and enhance it with my own implementations. The first step was to integrate methods for fetching and storing data to an IndexedDB database, a robust storage solution available within modern browsers. To simplify this process, I utilized a powerful package called `idb`, which served as a lightweight wrapper around the IndexedDB API.
+The navigation titles include "About Me," "Portfolio," "Contact," and "Resume," allowing visitors to easily access specific areas of interest. To provide a clear indication of the user's current section, the selected title is highlighted.
 
-The `idb` package proved to be an invaluable asset, as it offered a plethora of convenient methods for managing data within the IndexedDB database. Its reputation as a preferred choice for renowned companies like Google and Mozilla reassured me that I was utilizing a reliable and well-supported solution.
+Implementing smooth transitions and a seamless user experience, I ensured that clicking on a navigation title loads the corresponding section below the navigation without refreshing the page. This dynamic behavior enhances the overall interactivity and engagement of the portfolio.
 
-By leveraging the capabilities of `idb`, I was able to effortlessly store and retrieve data, ensuring a seamless and efficient experience for users. Whether they were creating new documents, editing existing ones, or accessing their work offline, this text editor provided a robust and reliable solution.
+When the portfolio is initially loaded, the default selection is the "About Me" section. Within this section, users are presented with a recent photo or avatar of the developer, accompanied by a concise and captivating bio. This personal touch helps users connect with the developer and understand their background and expertise.
 
-Throughout the development process, I constantly pushed my boundaries and applied the knowledge I had gained from the course. The result is a text editor that not only meets the desired requirements but also demonstrates my ability to tackle complex tasks and deliver exceptional results.
+Moving on to the "Portfolio" section, users encounter a visually appealing grid of six application tiles. Each tile features an image representing the respective application, along with links to both the deployed application and its corresponding GitHub repository. This allows visitors to explore the developer's work and access the source code for further examination.
 
-I am incredibly proud of the progress I have made and the accomplishments I have achieved with this text editor project. It serves as a testament to my dedication, perseverance, and the valuable skills I have acquired throughout my journey in this course.
+In the "Contact" section, I incorporated a user-friendly contact form. The form consists of fields for name, email address, and message, providing a straightforward way for users to reach out to the developer. To guide users in filling out the form correctly, I implemented validation notifications. When a user moves the cursor out of a form field without entering text, they receive a notification reminding them that the field is required. Similarly, if an invalid email address is entered into the email field, a notification alerts the user.
+
+The "Resume" section offers users a link to download the developer's resume and a comprehensive list of their proficiencies. This allows potential employers or collaborators to quickly assess the developer's skills and qualifications.
+
+Lastly, the footer completes the portfolio with relevant links to the developer's GitHub and LinkedIn profiles. Additionally, a link to their profile on a third platform, such as Stack Overflow or Twitter, is provided, ensuring that visitors can easily explore the developer's presence across multiple platforms.
+
+Overall, this React-based single-page application portfolio fulfills the given requirements by offering a visually appealing and interactive experience. It allows users to explore the developer's background, projects, and skills while providing convenient ways to contact and connect with them.
 
 ---
 
 ## Key Features
 
-Browser-Based: The text editor runs entirely within the browser, eliminating the need for any installation or external software. Users can access it conveniently from any device with a compatible web browser.
+Responsive Design: The portfolio is designed to be responsive, adapting seamlessly to different screen sizes and devices, ensuring a consistent user experience across desktop, tablet, and mobile devices.
 
-Single-Page Application (SPA): The text editor is designed as a single-page application, ensuring a seamless and fluid user experience. Users can navigate through various sections and perform actions without the need for page reloads, resulting in a faster and more interactive interface.
+Header and Navigation: The portfolio includes a header that displays the developer's name and a navigation menu. The menu provides easy access to different sections of the portfolio, such as "About Me," "Portfolio," "Contact," and "Resume."
 
-Progressive Web App (PWA) Compatibility: The text editor meets the criteria of a Progressive Web App, enabling users to install it on their devices for quick access, similar to a native app. This feature enhances usability, especially for frequent users who want to have the text editor readily available from their device's home screen.
+Dynamic Section Loading: Clicking on a navigation title loads the corresponding section below the navigation without refreshing the page. This dynamic loading enhances usability and provides a seamless browsing experience for users.
 
-Data Persistence: The text editor incorporates robust data persistence techniques to ensure that user data is securely stored and readily available. By leveraging the power of IndexedDB, the application seamlessly stores and retrieves data, providing a reliable and consistent experience.
+Highlighted Current Section: The current section in the navigation menu is highlighted, providing clear visual feedback to users about their current location within the portfolio.
 
-Offline Functionality: One of the standout features of the text editor is its ability to function offline. Users can continue working on their documents even without an active internet connection. The application efficiently caches data and synchronizes changes once a connection is reestablished, offering uninterrupted productivity.
+About Me Section: The "About Me" section showcases a recent photo or avatar of the developer and presents a short bio, allowing users to learn more about the developer's background, expertise, and interests.
 
-Lightweight Wrapper (idb): The text editor utilizes the idb package, a lightweight wrapper around the IndexedDB API, to simplify data management tasks. This package provides a range of methods specifically designed for storing and retrieving data, ensuring efficient and streamlined interactions with the IndexedDB database.
+Portfolio Section: The "Portfolio" section displays a grid of titled images representing six of the developer's applications. Each image is linked to both the deployed application and its corresponding GitHub repository, allowing users to explore the developer's projects.
 
-Industry-Backed Solution: The choice of using idb as the data persistence solution is supported by industry giants such as Google and Mozilla. This ensures that the text editor leverages a reliable and well-maintained solution, offering users a high-quality experience.
+Contact Section: The "Contact" section features a user-friendly contact form with fields for name, email address, and message. Validation notifications are implemented to guide users in providing the required information correctly.
+
+Validation Notifications: When a user moves the cursor out of a form field without entering text, a notification is displayed to indicate that the field is required. Additionally, if an invalid email address is entered, a notification alerts the user.
+
+Resume Section: The "Resume" section provides a link to download the developer's resume and presents a list of the developer's proficiencies, showcasing their skills and qualifications.
+
+Footer with Social Media Links: The footer includes text or icon links to the developer's GitHub and LinkedIn profiles, enabling visitors to easily access and connect with the developer. It also provides a link to the developer's profile on a third platform, such as Stack Overflow or Twitter, further expanding their online presence.
 
 ---
 
@@ -54,11 +66,9 @@ Industry-Backed Solution: The choice of using idb as the data persistence soluti
 | Featured Technology Used |                     Link                     |
 | :----------------------: | :------------------------------------------: |
 |       `JavaScript`       |    [LINK](https://devdocs.io/javascript/)    |
-|        `Node.js`         |        [LINK](https://nodejs.dev/en/)        |
 |          `Git`           |         [LINK](https://git-scm.com/)         |
 |          `NPM`           |        [LINK](https://www.npmjs.com/)        |
 |        `Express`         |        [LINK](https://expressjs.com/)        |
-|         `dotenv`         | [LINK](https://www.npmjs.com/package/dotenv) |
 
 ---
 
@@ -72,9 +82,10 @@ Industry-Backed Solution: The choice of using idb as the data persistence soluti
 
 ## Application Preview
 
-- Deployed Application Link: https://cryptic-stream-28920.herokuapp.com/
+- Deployed Application Link: TBD
 
-- ![J A T E In Action](https://github.com/CodeNameNoah/PWA-Text-Editor/assets/127361736/35965d8a-33cd-454b-b9ca-1c3f32707a16)
+- ![NPH-React-Portfolio](https://github.com/CodeNameNoah/NPH-React-Portfolio/assets/127361736/d3cef9c8-8db9-4775-9d8e-67351a303d53)
+
 
 ---
 
@@ -84,7 +95,7 @@ Industry-Backed Solution: The choice of using idb as the data persistence soluti
 
 1. Click on the green code button and copy the link for the SSH key.
 2. Once clip-boarded load up a command line interface and change directory to one of your preference
-3. Enter in the command `git@github.com:CodeNameNoah/PWA-Text-Editor.git`
+3. Enter in the command `git@github.com:CodeNameNoah/NPH-React-Portfolio.git`
 4. Enter your protected SSH password
 
 **To Download My Repository as a ZIP File**
@@ -102,10 +113,7 @@ To begin the installation process, first clone the GitHub Repository onto your l
 
 ## Credits
 
-- Express Installation: https://expressjs.com/en/starter/installing.html
-- Express API: https://expressjs.com/en/api.html
 - Error Help: https://stackoverflow.com/questions/14949118/node-js-error-cannot-find-module-express
-- Express Routing Guide: https://expressjs.com/en/guide/routing.html
 
 ---
 
