@@ -82,9 +82,10 @@ Footer with Social Media Links: The footer includes text or icon links to the de
 
 ## Application Preview
 
-- Deployed Application Link: https://cryptic-stream-28920.herokuapp.com/
+- Deployed Application Link: TBD
 
-- ![J A T E In Action](https://github.com/CodeNameNoah/PWA-Text-Editor/assets/127361736/35965d8a-33cd-454b-b9ca-1c3f32707a16)
+- ![NPH-React-Portfolio](https://github.com/CodeNameNoah/NPH-React-Portfolio/assets/127361736/d3cef9c8-8db9-4775-9d8e-67351a303d53)
+
 
 ---
 
@@ -94,7 +95,7 @@ Footer with Social Media Links: The footer includes text or icon links to the de
 
 1. Click on the green code button and copy the link for the SSH key.
 2. Once clip-boarded load up a command line interface and change directory to one of your preference
-3. Enter in the command `git@github.com:CodeNameNoah/PWA-Text-Editor.git`
+3. Enter in the command `git@github.com:CodeNameNoah/NPH-React-Portfolio.git`
 4. Enter your protected SSH password
 
 **To Download My Repository as a ZIP File**
@@ -112,10 +113,7 @@ To begin the installation process, first clone the GitHub Repository onto your l
 
 ## Credits
 
-- Express Installation: https://expressjs.com/en/starter/installing.html
-- Express API: https://expressjs.com/en/api.html
 - Error Help: https://stackoverflow.com/questions/14949118/node-js-error-cannot-find-module-express
-- Express Routing Guide: https://expressjs.com/en/guide/routing.html
 
 ---
 
