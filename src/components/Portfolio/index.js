@@ -95,10 +95,10 @@ function Portfolio() {
               class="card-img-top"
             />
             <div class="card-body">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/CodeNameNoah" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/CodeNameNoah" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
@@ -113,10 +113,10 @@ function Portfolio() {
               class="card-img-top"
             />
             <div class="card-body">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/CodeNameNoah" target="_blank" rel="noreferrer">
                 <button>GitHub</button>
               </a>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://github.com/CodeNameNoah" target="_blank" rel="noreferrer">
                 <button>Website</button>
               </a>
             </div>
